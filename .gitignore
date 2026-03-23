@@ -43,4 +43,5 @@ app-example
 /android
 
 #vscode config folder
+
 .vscode/
