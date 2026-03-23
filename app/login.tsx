@@ -235,7 +235,7 @@ function LoginContent() {
         <View style={styles.titleBlock}>
           <Text style={styles.title}>Entrar</Text>
           <Text style={styles.subtitle}>
-            Acesse sua conta e continue a leitura
+            Acesse sua conta e continue sua aventura
           </Text>
         </View>
 
