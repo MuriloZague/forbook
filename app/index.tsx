@@ -25,12 +25,12 @@ export default function TelaInicial() {
           <Text style={styles.minorTitle}>BEM VINDO AO</Text>
           <Text style={styles.bigTitle}>FORBOOK</Text>
         </View>
-        <View>
-          <TouchableOpacity>
-            <Text>ENTRAR</Text>
+        <View style={styles.btnContent}>
+          <TouchableOpacity style={styles.btn}>
+            <Text style={styles.btnText}>ENTRAR</Text>
           </TouchableOpacity>
-          <TouchableOpacity>
-            <Text>CRIAR CONTA</Text>
+          <TouchableOpacity style={styles.btn}>
+            <Text style={styles.btnText}>CRIAR CONTA</Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -43,15 +43,38 @@ const styles = StyleSheet.create({
       backgroundColor: 'F0F2F5',
     },
     content: {
-
+      margin: 'auto',
+      gap: 16
     },
     titleContent: {
 
     },
     minorTitle: {
-      fontFamily: 'lexend'
+      fontFamily: 'lexend',
+      fontSize: 28,
+      fontWeight: 'bold',
+      lineHeight: 5,
     },
     bigTitle: {
-
-    }
+      fontFamily: 'lexend',
+      fontSize: 58,
+      fontWeight: '900'
+    },
+    btnContent: {
+      alignItems: 'center',
+      gap: 12
+    },
+    btn: {
+      backgroundColor: '#6C63FF',
+      width: "80%",
+      borderRadius: 12,
+      paddingVertical: 10,
+    },
+    btnText: {
+      fontFamily: 'lexend',
+      color: 'white',
+      fontSize: 20,
+      fontWeight: '600',
+      textAlign: 'center',
+    },
 });
