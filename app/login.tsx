@@ -132,6 +132,7 @@ const styles = StyleSheet.create({
     textDecorationLine: "underline",
     textAlign: "right",
     marginTop: 12,
+    marginRight: 2,
   },
 
   btnContainer: {
