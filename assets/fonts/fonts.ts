@@ -1,3 +1,4 @@
 export const fonts = {
-  lexend: require('../../assets/fonts/lexend-font.ttf'),
+  lexend: require('../fonts/lexend-font.ttf'),
+  montserrat: require('../fonts/montserrat-font.ttf'),
 };

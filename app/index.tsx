@@ -34,6 +34,9 @@ export default function TelaInicial() {
           </TouchableOpacity>
         </View>
       </View>
+      <View>
+        
+      </View>
     </SafeAreaProvider>
   );
 }
@@ -66,12 +69,12 @@ const styles = StyleSheet.create({
     },
     btn: {
       backgroundColor: '#6C63FF',
-      width: "80%",
+      width: "85%",
       borderRadius: 12,
-      paddingVertical: 10,
+      paddingVertical: 12,
     },
     btnText: {
-      fontFamily: 'lexend',
+      fontFamily: 'montserrat',
       color: 'white',
       fontSize: 20,
       fontWeight: '600',
