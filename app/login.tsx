@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
     borderColor: "#6C63FF",
     borderRadius: 12,
     padding: 14,
-    fontSize: 16,
+    fontSize: 15,
     color: "#000",
     fontFamily: "montserratRegular",
   },
