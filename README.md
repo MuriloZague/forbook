@@ -48,3 +48,18 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+```bash
+npx expo install expo-dev-client --> adiciona expo dev no projeto
+
+npm install -g eas-cli --> instalar eas
+npx eas login --> logar no eas
+
+npx eas build:configure --> escolher android ou ios (ou os dois)
+
+npx eas build --profile development --platform android --> gerar apk do app
+(O APK DA ÚLTIMA VERSÃO JÁ FOI GERADO, ACESSAR -> https://expo.dev/accounts/murilada/projects/forbook/builds/a67a37fd-f8af-47d6-a142-3090e8d9f8ca)
+
+npx expo start --dev-client --> rodar apk do app
+```
