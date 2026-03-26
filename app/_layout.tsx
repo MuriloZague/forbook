@@ -10,15 +10,11 @@ export const unstable_settings = {
 
 export default function RootLayout() {
   const [fontsLoaded] = useFonts({
-    lexend: fonts.lexend,
     lexendBlack: fonts.lexendBlack,
     lexendBold: fonts.lexendBold,
-    lexendExtraBold: fonts.lexendExtraBold,
     lexendRegular: fonts.lexendRegular,
-    montserrat: fonts.montserrat,
     montserratBlack: fonts.lexendBlack,
     montserratBold: fonts.montserratBold,
-    montserratExtraBold: fonts.montserratExtraBold,
     montserratRegular: fonts.montserratRegular,
   });
 
