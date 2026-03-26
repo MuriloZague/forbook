@@ -27,10 +27,10 @@ export default function TelaInicial() {
           <Text style={styles.bigTitle}>FORBOOK</Text>
         </View>
         <View style={styles.btnContent}>
-          <TouchableOpacity style={styles.btn}>
+          <TouchableOpacity style={styles.btn} activeOpacity={0.6}>
             <Text style={styles.btnText}>ENTRAR</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.btn}>
+          <TouchableOpacity style={styles.btn} activeOpacity={0.6}>
             <Text style={styles.btnText}>CRIAR CONTA</Text>
           </TouchableOpacity>
         </View>
