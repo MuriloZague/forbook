@@ -1,5 +1,4 @@
-import { Image } from "expo-image";
-import { Platform, StyleSheet, View, Text } from "react-native";
+import { Platform, StyleSheet, Text, View } from "react-native";
 
 import { Link } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";

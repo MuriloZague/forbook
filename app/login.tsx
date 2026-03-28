@@ -55,7 +55,7 @@ export default function LoginScreen() {
         </View>
 
         <View style={styles.btnContainer}>
-          <TouchableOpacity style={styles.btn} activeOpacity={0.7} onPress={() => router.push("/(tabs)")}>
+          <TouchableOpacity style={styles.btn} activeOpacity={0.7} onPress={() => router.push("/(tabs)/home")}>
             <Text style={styles.btnText}>ENTRAR</Text>
           </TouchableOpacity>
         </View>
